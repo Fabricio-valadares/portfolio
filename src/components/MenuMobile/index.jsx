@@ -7,6 +7,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { Container, ButtonStyled } from "./styled";
 import { FiSmile, FiFolder, FiBookOpen, FiCheckSquare } from "react-icons/fi";
 import { CgMenuRightAlt } from "react-icons/cg";
+import { HiOutlineHome } from "react-icons/hi";
 
 import { useHistory } from "react-router-dom";
 
@@ -71,6 +72,21 @@ export default function CustomizedMenus() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
+        <span
+          style={{
+            listStyle: "none",
+            textDecoration: "none",
+            color: "#0000008a",
+          }}
+          onClick={handleClose}
+        >
+          <StyledMenuItem onClick={() => history.push("/")}>
+            <ListItemIcon>
+              <HiOutlineHome size={23} />
+            </ListItemIcon>
+            <ListItemText primary="Home" />
+          </StyledMenuItem>
+        </span>
         <a
           style={{
             listStyle: "none",
