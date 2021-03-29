@@ -21,7 +21,9 @@ const Artigo = () => {
       </DivStyled>
       <DivCard>
         <CardStyled>
-          <Image style={{ backgroundImage: "url(./assets/artOne.jpg)" }} />
+          <Image
+            style={{ backgroundImage: "url(./assets/Article/artOne.jpg)" }}
+          />
           <Name>TAGs importantes para estruturar uma pagina HTML</Name>
           <div>
             <Button
@@ -33,7 +35,9 @@ const Artigo = () => {
           </div>
         </CardStyled>
         <CardStyled>
-          <Image style={{ backgroundImage: "url(./assets/artTwo.jpg)" }} />
+          <Image
+            style={{ backgroundImage: "url(./assets/Article/artTwo.jpg)" }}
+          />
           <Name>Estrutura básica de uma pagina HTML</Name>
           <div>
             <Button
@@ -45,7 +49,9 @@ const Artigo = () => {
           </div>
         </CardStyled>
         <CardStyled>
-          <Image style={{ backgroundImage: "url(./assets/artThreen.jpg)" }} />
+          <Image
+            style={{ backgroundImage: "url(./assets/Article/artThreen.jpg)" }}
+          />
           <Name>
             GitLab Pages: Publique seu site em uma hospedagem gratuita
           </Name>

@@ -8,6 +8,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1012px) {
+    height: auto;
+  }
 `;
 
 export const Name = styled.p`
@@ -50,10 +54,24 @@ export const DivStyled = styled.div`
 export const Title = styled.h1`
   font-size: 2em;
   font-weight: bold;
+  color: #40c5dc;
+
+  @media (max-width: 1012px) {
+    margin-top: 39px;
+  }
 `;
 
 export const DivCard = styled.div`
   display: flex;
+
+  @media (max-width: 1012px) {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &:last-child {
+      margin-bottom: 39px;
+    }
+  }
 `;
 
 export const SubTitle = styled.h3`
@@ -70,8 +88,8 @@ export const Button = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 200px;
-  height: 35px;
+  width: 166px;
+  height: 30px;
   border-radius: 8px;
   border: none;
   color: #fff;

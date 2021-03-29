@@ -6,11 +6,15 @@ export const NavStyled = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-right: 8%;
+
+  @media (max-width: 808px) {
+    display: none;
+  }
 `;
 export const Itens = styled.div`
   display: flex;
   width: 300px;
-  font-variant: small-caps;
+  font-weight: 300;
   font-size: 1.1rem;
   height: 25px;
   margin-right: 10px;

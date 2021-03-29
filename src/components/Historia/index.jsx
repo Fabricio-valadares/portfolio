@@ -18,25 +18,27 @@ const Historia = () => {
             Sobre min
           </div>
           <Text>
-            Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
-            programação não tem muito tempo, Alias tem exatamente 6 meses, isso
-            mesmo apens 6 meses, mas eu sempre tive interrece por software, mas
-            eu achava que isso era muito dificil e que não era para mim, porque
-            toda vez que tentei aprender sozinho, eu não dava conta de resolver
-            nenhum problema usando código, então eu segui outros caminhos, mas a
-            o sonho de construir um site nao saia de mim, então eu desidir
-            começar a estudar novamente, mas agora procurando uma ajuda,
-            perfomce.
+            Olá tudo bem ?<br /> <br /> Meu nome e <i>Fabricio Valadares</i>, e
+            minha história com programação não tem muito tempo, Alias tem
+            exatamente 6 meses, isso mesmo apens 6 meses, mas eu sempre tive
+            interrece por criar software, mas eu achava que isso era muito
+            dificil, porque toda vez que tentei aprender sozinho, eu não dava
+            conta de
+            {/* desenrolar um problena usando código, então eu desistir e segui
+            outros caminhos, mas a o sonho de construir software nao saia de
+            mim, então eu desidir começar a estudar novamente, mas agora
+            procurando uma ajuda. */}
+            <br />
           </Text>
           <Text>
-            e nesse proceso de buscar ajuda eu encontrei a kenzie Academy
+            E nesse proceso de buscar ajuda eu encontrei a kenzie Academy
             Brasil, onde eu posso dizer que aprendir a programar, onde eu
-            construr diversos prjetos, onde eu trabalhei em grupo varias vezes,
-            aprendi a como e feitp o processo de controstrução de um software, e
-            me me desenvolvi muito como lider e também sendo liderado pelos meus
-            colegar, durante os trabalhos em grupo, onde como costume usavamos a
-            metodologia agel scrum, usavamos também kanbam, entre vaias outras
-            ferramentas de organizção e
+            construr diversos projetos, onde eu trabalhei em grupo com varias
+            pessoas, aprendi como e feito o processo de contrustrução de um
+            software, e me desenvolvi muito como lider e também sendo liderado
+            {/* pelos meus colegar, durante os trabalhos em grupo, onde como costume
+            usavamos a metodologia ageis como o scrum, usavamos também kanbam,
+            entre vaias outras ferramentas de organizção. */}
           </Text>
         </DivText>
       </Card>

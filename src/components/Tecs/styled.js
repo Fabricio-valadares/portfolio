@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin-bottom: 30px;
   padding-bottom: 30px;
-
+  width: 100%;
   border-top: 1px solid #333;
   /* border-right: 1px solid #333;
   border-bottom: 1px solid #333; */
@@ -23,6 +23,7 @@ export const Title = styled.h1`
   font-size: 2em;
   margin: 60px 0 0 0;
   font-weight: bold;
+  color: #40c5dc;
 `;
 
 export const SubTitle = styled.h3`

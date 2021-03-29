@@ -37,3 +37,11 @@ export const Animation = styled.div`
 
   text-align: center;
 `;
+
+export const Text = styled.p`
+  font-weight: 300;
+  font-variant: petite-caps;
+  width: 80%;
+  text-align: center;
+  line-height: 1.5;
+`;

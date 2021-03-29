@@ -7,6 +7,10 @@ export const Container = styled.div`
   align-items: center;
 
   padding-bottom: 30px;
+
+  @media (max-width: 905px) {
+    width: 95%;
+  }
 `;
 
 export const SectionStyle = styled.div`
@@ -31,6 +35,30 @@ export const DivTitle = styled.div`
 
 export const Title = styled.h1`
   font-size: 2em;
-  margin: 60px 0 0 0;
+  margin: 39px 0 22px 0;
+  color: #40c5dc;
   font-weight: bold;
 `;
+
+export const Legend = styled.p`
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -100px;
+  width: 222px;
+  border-radius: 10px;
+  background: #40c5dc;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.25;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  cursor: pointer;
+  opacity: 1;
+`;
+
+export const Image = styled.img``;

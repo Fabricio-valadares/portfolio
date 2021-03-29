@@ -7,6 +7,7 @@ import {
   Text,
   Button,
   FaGithubStyled,
+  AStyled,
 } from "./styled";
 
 const Sobre = () => {
@@ -20,9 +21,9 @@ const Sobre = () => {
         </Text>
         <Button>
           <FaGithubStyled />
-          <a href="https://github.com/Fabricio-valadares" target="_blank">
+          <AStyled href="https://github.com/Fabricio-valadares" target="_blank">
             Conhecer Github
-          </a>
+          </AStyled>
         </Button>
       </DivText>
       <DivImage>

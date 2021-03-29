@@ -16,6 +16,14 @@ export const Logo = styled.div`
   font-size: 47px;
   cursor: pointer;
   color: var(--color-blue-clear);
+
+  @media (max-width: 808px) {
+    order: 0;
+  }
+
+  @media (max-width: 365px) {
+    margin-left: 0;
+  }
 `;
 export const NavStyled = styled.div`
   display: flex;
@@ -26,4 +34,62 @@ export const NavStyled = styled.div`
 `;
 export const Itens = styled.div`
   cursor: pointer;
+`;
+
+export const DivButton = styled.div`
+  margin-right: 8%;
+
+  @media (max-width: 808px) {
+    margin-right: 0;
+  }
+`;
+
+export const Button = styled.button`
+  width: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  font-size: 1rem;
+  background-color: var(--color-blue-clear);
+  border: none;
+  border-radius: 6px;
+  color: #333;
+  font-weight: 500;
+  padding: 10px;
+  outline: none;
+
+  @media (max-width: 808px) {
+    order: 1;
+    width: 124px;
+  }
+
+  @media (max-width: 365px) {
+    display: none;
+  }
+`;
+
+export const DivButtonTwo = styled.div`
+  display: none;
+
+  @media (max-width: 365px) {
+    display: block;
+    margin-left: -40px;
+  }
+`;
+
+export const ButtonTwo = styled.button`
+  width: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  font-size: 1rem;
+  background-color: var(--color-blue-clear);
+  border: none;
+  border-radius: 6px;
+  color: #333;
+  font-weight: 500;
+  padding: 10px;
+  outline: none;
 `;

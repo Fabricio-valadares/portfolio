@@ -1,7 +1,15 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { Container, SectionStyle, DivTitle, Title, SubTitle } from "./styled";
+import {
+  Container,
+  SectionStyle,
+  DivTitle,
+  Title,
+  SubTitle,
+  Legend,
+  Image,
+} from "./styled";
 import { useHistory } from "react-router-dom";
+import { unstable_concurrentAct } from "react-dom/test-utils";
 
 const Projects = () => {
   const history = useHistory();
@@ -13,38 +21,34 @@ const Projects = () => {
         <SubTitle>Avançe no Slid e clique no Botão sabe mais !</SubTitle>
       </DivTitle>
       <Container>
-        <Carousel showThumbs={false}>
-          <div onClick={() => history.push("/devstate")}>
-            <img src="./assets/one1.png" />
-            <p
-              style={{ backgroundColor: "#40c5dc", width: 100 }}
-              className="legend"
-            >
+        <Carousel
+          showStatus={false}
+          useKeyboardArrows={true}
+          showThumbs={false}
+        >
+          <div>
+            <Image src="./assets/DevState/devstate2.png" />
+            <Legend onClick={() => history.push("/devstate")}>
               Saiba Mais !
-            </p>
+            </Legend>
           </div>
           <div>
-            <img src="./assets/two.png" />
-            <p style={{ backgroundColor: "#1b1b1bb8" }} className="legend">
-              Legend 2
-            </p>
+            <Image src="./assets/KenzieHub/kenziehub1.png" />
+            <Legend onClick={() => history.push("/kenziehub")}>
+              Saiba Mais !
+            </Legend>
           </div>
           <div>
-            <img src="./assets/threen.png" />
-            <p style={{ backgroundColor: "#1b1b1bb8" }} className="legend">
-              Legend 2
-            </p>
+            <Image src="./assets/Hogwarts/hogwarts2.png" />
+            <Legend onClick={() => history.push("/hogwarts")}>
+              Saiba Mais !
+            </Legend>
           </div>
           <div>
-            <img src="./assets/for.png" />
-            <p style={{ backgroundColor: "#40c5dc" }} className="legend">
-              <a
-                style={{ color: "#fff", fontSize: "16px" }}
-                href="https://google.com"
-              >
-                Saiba mais
-              </a>
-            </p>
+            <Image src="./assets/KenzieShop/kenzieshop1.png" />
+            <Legend onClick={() => history.push("/kenzieshop")}>
+              Saiba Mais !
+            </Legend>
           </div>
         </Carousel>
       </Container>

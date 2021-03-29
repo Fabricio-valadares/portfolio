@@ -12,6 +12,7 @@ import {
   DivText,
   Dow,
   Animation,
+  Image,
 } from "./styled";
 
 const DevState = () => {
@@ -21,7 +22,7 @@ const DevState = () => {
 
       <MainStyled>
         <SectionCarousel>
-          <Carousel>
+          <Carousel showStatus={false} useKeyboardArrows={true}>
             <div>
               <img src="./assets/DevState/devstate1.png" />
             </div>
@@ -56,13 +57,7 @@ const DevState = () => {
         <Dow />
       </Animation>
       <Card>
-        <DivImage>
-          {/* <img
-            style={{ width: 300 }}
-            src="./assets/un6.svg"
-            alt="image-random"
-          /> */}
-        </DivImage>
+        <DivImage></DivImage>
         <DivText>
           <div
             style={{ margin: "20px 0", fontSize: "1.6rem", color: "#40c5dc" }}

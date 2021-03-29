@@ -9,6 +9,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 1070px) {
+    height: auto;
+  }
 `;
 
 export const Card = styled.div`
@@ -17,11 +21,21 @@ export const Card = styled.div`
   display: flex;
   width: 80%;
   height: 400px;
+
+  @media (max-width: 1070px) {
+    height: auto;
+  }
 `;
 
 export const DivText = styled.div`
   width: 600px;
   padding: 20px 0 0 20px;
+
+  @media (max-width: 1070px) {
+    &:last-child {
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 export const DivImage = styled.div`
@@ -41,4 +55,5 @@ export const DivImage = styled.div`
 export const Text = styled.p`
   font-weight: 300;
   line-height: 1.5;
+  margin-top: 17px;
 `;
