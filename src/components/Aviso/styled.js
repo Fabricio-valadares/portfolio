@@ -12,6 +12,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 905px) {
+    height: 184px;
+  }
 `;
 
 export const Dow = styled(FiChevronDown)`

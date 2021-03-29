@@ -8,6 +8,7 @@ import {
   SubTitle,
   DivCard,
   Button,
+  DivSubTitle,
 } from "./styled";
 
 const Artigo = () => {
@@ -15,9 +16,11 @@ const Artigo = () => {
     <Container id="artigos">
       <DivStyled>
         <Title>Artigos</Title>
-        <SubTitle>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </SubTitle>
+        <DivSubTitle>
+          <SubTitle>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </SubTitle>
+        </DivSubTitle>
       </DivStyled>
       <DivCard>
         <CardStyled>

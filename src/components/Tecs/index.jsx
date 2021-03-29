@@ -1,4 +1,11 @@
-import { Container, DivStyled, Title, SubTitle, DivCard } from "./styled";
+import {
+  Container,
+  DivStyled,
+  Title,
+  SubTitle,
+  DivCard,
+  DivSubTitle,
+} from "./styled";
 import Card from "../Card";
 
 const Tecs = () => {
@@ -6,9 +13,11 @@ const Tecs = () => {
     <Container>
       <DivStyled>
         <Title id="hardSkills">HardSkills</Title>
-        <SubTitle>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </SubTitle>
+        <DivSubTitle>
+          <SubTitle>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </SubTitle>
+        </DivSubTitle>
       </DivStyled>
       <DivCard>
         <Card />

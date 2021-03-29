@@ -33,10 +33,6 @@ export const CardStyled = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: 440px) {
-    width: 131px;
-  }
 `;
 
 export const Image = styled.div`
@@ -74,11 +70,17 @@ export const DivCard = styled.div`
   }
 `;
 
+export const DivSubTitle = styled.div`
+  @media (max-width: 905px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
 export const SubTitle = styled.h3`
   font-weight: 300;
-  margin: 18px 0;
   font-size: 1.17rem;
-  padding: 0px 45px;
+  margin: 13px 45px 30px 45px;
   text-align: center;
 `;
 

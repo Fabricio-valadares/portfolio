@@ -16,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  padding: 0 45px;
+  /* padding: 0 45px; */
   font-variant: small-caps;
   font-size: 3rem;
   font-weight: 500;
@@ -31,14 +31,14 @@ export const Title = styled.h1`
   }
 
   @media (max-width: 905px) {
-    width: 80%;
+    /* width: 80%; */
     margin: 0;
     text-align: center;
     margin-bottom: 30px;
   }
 `;
 export const Text = styled.p`
-  padding: 0 45px;
+  /* padding: 0 45px; */
   line-height: 25px;
   font-weight: 300;
 
@@ -82,6 +82,10 @@ export const DivText = styled.div`
   }
 `;
 
+export const DivContent = styled.div`
+  margin: 0 45px;
+`;
+
 export const Button = styled.button`
   width: 184px;
   display: flex;
@@ -95,7 +99,7 @@ export const Button = styled.button`
   color: #333;
   font-weight: 500;
   padding: 10px;
-  margin: 40px 0 0 45px;
+  margin-top: 40px;
 
   @media (max-width: 769px) {
     margin: 20px 0 15px 0;
@@ -129,4 +133,11 @@ export const DivImage = styled.div`
 export const AStyled = styled.a`
   text-decoration: none;
   color: #333;
+`;
+
+export const DivButton = styled.div`
+  @media (max-width: 905px) {
+    display: flex;
+    justify-content: center;
+  }
 `;

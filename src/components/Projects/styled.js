@@ -21,11 +21,17 @@ export const SectionStyle = styled.div`
   align-items: center;
 `;
 
+export const DivSubTitle = styled.div`
+  @media (max-width: 905px) {
+    display: flex;
+    justify-content: center;
+  }
+`;
+
 export const SubTitle = styled.h3`
   font-weight: 300;
-  margin: 13px 0 30px 0;
+  margin: 13px 45px 30px 45px;
   font-size: 1.17rem;
-  padding: 0px 45px;
   text-align: center;
 `;
 

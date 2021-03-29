@@ -7,6 +7,7 @@ import {
   SubTitle,
   Legend,
   Image,
+  DivSubTitle,
 } from "./styled";
 import { useHistory } from "react-router-dom";
 import { unstable_concurrentAct } from "react-dom/test-utils";
@@ -18,7 +19,9 @@ const Projects = () => {
     <SectionStyle id="projects">
       <DivTitle>
         <Title>Projetos</Title>
-        <SubTitle>Avançe no Slid e clique no Botão sabe mais !</SubTitle>
+        <DivSubTitle>
+          <SubTitle>Avançe no Slid e clique no Botão sabe mais !</SubTitle>
+        </DivSubTitle>
       </DivTitle>
       <Container>
         <Carousel

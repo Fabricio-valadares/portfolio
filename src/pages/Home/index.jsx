@@ -6,10 +6,11 @@ import Historia from "../../components/Historia";
 import Footer from "../../components/Footer";
 import Projects from "../../components/Projects";
 import Artigo from "../../components/Artigo";
+import { ContainerMain } from "./styled";
 
 const Home = () => {
   return (
-    <>
+    <ContainerMain>
       <Header />
       <Sobre />
       <Aviso />
@@ -18,7 +19,7 @@ const Home = () => {
       <Artigo />
       <Tecs />
       <Footer />
-    </>
+    </ContainerMain>
   );
 };
 
