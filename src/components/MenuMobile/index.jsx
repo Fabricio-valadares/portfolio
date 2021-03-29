@@ -1,16 +1,14 @@
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import DraftsIcon from "@material-ui/icons/Drafts";
-import SendIcon from "@material-ui/icons/Send";
-import { Container } from "./styled";
-
+import { Container, ButtonStyled } from "./styled";
+import { FiSmile, FiFolder, FiBookOpen, FiCheckSquare } from "react-icons/fi";
 import { CgMenuRightAlt } from "react-icons/cg";
+
+import { useHistory } from "react-router-dom";
 
 const StyledMenu = withStyles({
   paper: {
@@ -35,9 +33,9 @@ const StyledMenu = withStyles({
 const StyledMenuItem = withStyles((theme) => ({
   root: {
     "&:focus": {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: "#40c5dc",
       "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
-        color: theme.palette.common.white,
+        color: "#fff",
       },
     },
   },
@@ -45,6 +43,8 @@ const StyledMenuItem = withStyles((theme) => ({
 
 export default function CustomizedMenus() {
   const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const history = useHistory();
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -56,15 +56,14 @@ export default function CustomizedMenus() {
 
   return (
     <Container>
-      <Button
+      <ButtonStyled
         aria-controls="customized-menu"
         aria-haspopup="true"
         variant="contained"
-        color="primary"
         onClick={handleClick}
       >
         <CgMenuRightAlt size={27} />
-      </Button>
+      </ButtonStyled>
       <StyledMenu
         id="customized-menu"
         anchorEl={anchorEl}
@@ -72,24 +71,70 @@ export default function CustomizedMenus() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <StyledMenuItem>
-          <ListItemIcon>
-            <SendIcon fontSize="small" />
-          </ListItemIcon>
-          <ListItemText primary="Sent mail" />
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <ListItemIcon>
-            <DraftsIcon fontSize="small" />
-          </ListItemIcon>
-          <ListItemText primary="Drafts" />
-        </StyledMenuItem>
-        <StyledMenuItem>
-          <ListItemIcon>
-            <InboxIcon fontSize="small" />
-          </ListItemIcon>
-          <ListItemText primary="Inbox" />
-        </StyledMenuItem>
+        <a
+          style={{
+            listStyle: "none",
+            textDecoration: "none",
+            color: "#0000008a",
+          }}
+          onClick={handleClose}
+          href="#history"
+        >
+          <StyledMenuItem onClick={() => history.push("/")}>
+            <ListItemIcon>
+              <FiSmile size={23} />
+            </ListItemIcon>
+            <ListItemText primary="Sobre mim" />
+          </StyledMenuItem>
+        </a>
+        <a
+          style={{
+            listStyle: "none",
+            textDecoration: "none",
+            color: "#0000008a",
+          }}
+          onClick={handleClose}
+          href="#projects"
+        >
+          <StyledMenuItem onClick={() => history.push("/")}>
+            <ListItemIcon>
+              <FiFolder size={23} />
+            </ListItemIcon>
+            <ListItemText primary="Projetos" />
+          </StyledMenuItem>
+        </a>
+        <a
+          style={{
+            listStyle: "none",
+            textDecoration: "none",
+            color: "#0000008a",
+          }}
+          onClick={handleClose}
+          href="#artigos"
+        >
+          <StyledMenuItem onClick={() => history.push("/")}>
+            <ListItemIcon>
+              <FiBookOpen size={23} />
+            </ListItemIcon>
+            <ListItemText primary="Artigos" />
+          </StyledMenuItem>
+        </a>
+        <a
+          style={{
+            listStyle: "none",
+            textDecoration: "none",
+            color: "#0000008a",
+          }}
+          onClick={handleClose}
+          href="#hardSkills"
+        >
+          <StyledMenuItem onClick={() => history.push("/")}>
+            <ListItemIcon>
+              <FiCheckSquare size={23} />
+            </ListItemIcon>
+            <ListItemText primary="HardSkills" />
+          </StyledMenuItem>
+        </a>
       </StyledMenu>
     </Container>
   );
