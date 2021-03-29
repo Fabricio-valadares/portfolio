@@ -10,7 +10,6 @@ import {
   DivSubTitle,
 } from "./styled";
 import { useHistory } from "react-router-dom";
-import { unstable_concurrentAct } from "react-dom/test-utils";
 
 const Projects = () => {
   const history = useHistory();

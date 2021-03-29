@@ -1,49 +1,65 @@
 import styled from "styled-components";
 import { FiChevronDown } from "react-icons/fi";
 
-export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-`;
+export const Container = styled.div``;
 
 export const SectionCarousel = styled.section`
-  width: 50%;
-  height: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 75%;
 
-  padding-bottom: 30px;
+  .thumbs {
+    text-align: center;
+  }
+
+  @media (max-width: 905px) {
+    width: 95%;
+  }
 `;
 
 export const MainStyled = styled.main`
   width: 100%;
-  height: 85%;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 745px) {
+    height: 69%;
+  }
+
+  @media (max-width: 570px) {
+    height: 58%;
+  }
+
+  @media (max-width: 445px) {
+    height: 48%;
+  }
+
+  @media (max-width: 340px) {
+    height: 38%;
+  }
 `;
 
 export const Card = styled.div`
   border-left: 1px solid #333;
-
+  background-color: #19191b;
   display: flex;
-  width: 80%;
-  height: 400px;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 20px 0 40px 0;
+
+  @media (max-width: 905px) {
+    justify-content: center;
+  }
 `;
 
 export const DivText = styled.div`
+  border-left: 1px solid #333;
+
   width: 600px;
-  padding: 20px 0 0 20px;
+  padding: 20px 20px 0 20px;
 `;
 
 export const DivImage = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-right: 1px solid #333;
-
   width: 250px;
 
   @media (max-width: 905px) {
@@ -57,7 +73,6 @@ export const Text = styled.p`
 `;
 
 export const Dow = styled(FiChevronDown)`
-  /* padding-top: 20px; */
   font-size: 41px;
   color: var(--color-blue-clear);
   animation: dow 2s 0.8s infinite alternate;
@@ -75,7 +90,5 @@ export const Dow = styled(FiChevronDown)`
 
 export const Animation = styled.div`
   width: 100%;
-  margin-top: -46px;
-
   text-align: center;
 `;

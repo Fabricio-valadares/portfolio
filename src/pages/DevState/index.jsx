@@ -12,7 +12,6 @@ import {
   DivText,
   Dow,
   Animation,
-  Image,
 } from "./styled";
 
 const DevState = () => {
@@ -53,9 +52,9 @@ const DevState = () => {
           </Carousel>
         </SectionCarousel>
       </MainStyled>
-      <Animation>
+      {/* <Animation>
         <Dow />
-      </Animation>
+      </Animation> */}
       <Card>
         <DivImage></DivImage>
         <DivText>
