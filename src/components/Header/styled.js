@@ -58,6 +58,7 @@ export const Button = styled.button`
   font-weight: 500;
   padding: 10px;
   outline: none;
+  cursor: pointer;
 
   @media (max-width: 808px) {
     order: 1;
@@ -89,6 +90,7 @@ export const ButtonTwo = styled.button`
   border: none;
   border-radius: 6px;
   color: #333;
+  cursor: pointer;
   font-weight: 500;
   padding: 10px;
   outline: none;

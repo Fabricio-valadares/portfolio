@@ -10,6 +10,7 @@ import {
 import { useHistory } from "react-router-dom";
 import { FiMessageCircle } from "react-icons/fi";
 import CustomizedMenus from "../MenuMobile";
+import SpringModal from "../ModalContact";
 
 const Header = () => {
   const history = useHistory();
@@ -18,18 +19,29 @@ const Header = () => {
     <Container>
       <Logo onClick={() => history.push("/")}>F.</Logo>
       <Menu />
+
       <DivButton>
-        <Button>
-          <FiMessageCircle size={20} />
-          <span style={{ marginLeft: 10, fontWeight: "bold", color: "#333" }}>
-            Contato
-          </span>
-        </Button>
+        <SpringModal
+          button={
+            <Button>
+              <FiMessageCircle size={20} />
+              <span
+                style={{ marginLeft: 10, fontWeight: "bold", color: "#333" }}
+              >
+                Contato
+              </span>
+            </Button>
+          }
+        />
       </DivButton>
       <DivButtonTwo>
-        <ButtonTwo>
-          <FiMessageCircle size={20} />
-        </ButtonTwo>
+        <SpringModal
+          button={
+            <ButtonTwo>
+              <FiMessageCircle size={20} />
+            </ButtonTwo>
+          }
+        />
       </DivButtonTwo>
       <CustomizedMenus />
     </Container>
