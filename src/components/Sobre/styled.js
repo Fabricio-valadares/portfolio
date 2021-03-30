@@ -52,7 +52,7 @@ export const Image = styled.div`
   height: 316px;
   border-radius: 29px 0 29px 0;
 
-  background-image: url("./assets/im.jpeg");
+  background-image: url("./assets/imgUltis/im.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 

@@ -7,7 +7,7 @@ const Historia = () => {
         <DivImage>
           <img
             style={{ width: 300 }}
-            src="./assets/un6.svg"
+            src="./assets/imgUltis/un6.svg"
             alt="image-random"
           />
         </DivImage>
