@@ -8,7 +8,20 @@ export const Container = styled.div`
   padding: 40px;
   background-color: #191919;
   border-bottom: 1px solid #333;
+
+  animation: HeaderAnimate 1s;
+
+  @keyframes HeaderAnimate {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
 `;
+
 export const Logo = styled.div`
   font-family: "Fredoka One", cursive;
   font-weight: 900;

@@ -69,8 +69,19 @@ export const DivText = styled.div`
   height: 400px;
   flex-direction: column;
   justify-content: center;
-
   display: flex;
+
+  animation: DivTextAnimate 1s;
+
+  @keyframes DivTextAnimate {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
 
   @media (max-width: 905px) {
     width: 100%;
@@ -123,6 +134,18 @@ export const DivImage = styled.div`
 
   display: flex;
   justify-content: center;
+
+  animation: DivImageAnimate 1s;
+
+  @keyframes DivImageAnimate {
+    0% {
+      transform: translateX(100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
+  }
 
   @media (max-width: 905px) {
     width: 100%;

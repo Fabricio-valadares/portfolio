@@ -13,6 +13,18 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+  animation: ContainerAnimate 1s;
+
+  @keyframes ContainerAnimate {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
   @media (max-width: 905px) {
     height: 184px;
   }
