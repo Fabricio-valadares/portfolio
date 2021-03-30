@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { FiChevronDown } from "react-icons/fi";
 
 export const Container = styled.div``;
 
@@ -70,25 +69,4 @@ export const DivImage = styled.div`
 export const Text = styled.p`
   font-weight: 300;
   line-height: 1.5;
-`;
-
-export const Dow = styled(FiChevronDown)`
-  font-size: 41px;
-  color: var(--color-blue-clear);
-  animation: dow 2s 0.8s infinite alternate;
-
-  @keyframes dow {
-    0% {
-      transform: translateY(-15px);
-    }
-
-    to {
-      transform: translateY(0);
-    }
-  }
-`;
-
-export const Animation = styled.div`
-  width: 100%;
-  text-align: center;
 `;

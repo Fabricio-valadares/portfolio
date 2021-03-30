@@ -4,8 +4,8 @@ const Aviso = () => {
   return (
     <Container>
       <Text style={{ fontWeight: 300, fontVariant: "petite-caps" }}>
-        Mas antes de mostar alguns projetos que já desenvolvi, quero contar um
-        pouco de como chegeui até aqui !
+        Mas antes de mostrar alguns projetos que já desenvolvi, quero contar um
+        pouco de como cheguei até aqui !
       </Text>
       <Animation>
         <Dow />

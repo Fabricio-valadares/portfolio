@@ -13,6 +13,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    border: "none",
+    outline: "none",
   },
   title: {
     textAlign: "center",

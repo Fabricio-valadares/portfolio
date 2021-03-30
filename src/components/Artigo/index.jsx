@@ -17,9 +17,7 @@ const Artigo = () => {
       <DivStyled>
         <Title>Artigos</Title>
         <DivSubTitle>
-          <SubTitle>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </SubTitle>
+          <SubTitle>Essa seção é para você que gosta de ler !</SubTitle>
         </DivSubTitle>
       </DivStyled>
       <DivCard>

@@ -18,27 +18,25 @@ const Historia = () => {
             Sobre min
           </div>
           <Text>
-            Olá tudo bem ?<br /> <br /> Meu nome e <i>Fabricio Valadares</i>, e
-            minha história com programação não tem muito tempo, Alias tem
-            exatamente 6 meses, isso mesmo apens 6 meses, mas eu sempre tive
-            interrece por criar software, mas eu achava que isso era muito
-            dificil, porque toda vez que tentei aprender sozinho, eu não dava
-            conta de
-            {/* desenrolar um problena usando código, então eu desistir e segui
-            outros caminhos, mas a o sonho de construir software nao saia de
-            mim, então eu desidir começar a estudar novamente, mas agora
-            procurando uma ajuda. */}
+            Olá tudo bem ?<br />
             <br />
+            Meu nome é Fabricio Valadares, sou goiano, tenho 21 anos, sou
+            apaixonado por livros, programação, e tenho uma grande empolgação
+            por empreendedorismo e educação financeira. <br /> <br /> Gosto
+            muito de conversar sobre produto, negócios e principalmente sobre
+            inovação, porque acredito que uma empresa pode mudar o mundo para
+            melhor com um produto fácil de usar e que resolva um problema comum
+            entre um determinado grupo de pessoas.
           </Text>
           <Text>
-            E nesse proceso de buscar ajuda eu encontrei a kenzie Academy
-            Brasil, onde eu posso dizer que aprendir a programar, onde eu
-            construr diversos projetos, onde eu trabalhei em grupo com varias
-            pessoas, aprendi como e feito o processo de contrustrução de um
-            software, e me desenvolvi muito como lider e também sendo liderado
-            {/* pelos meus colegar, durante os trabalhos em grupo, onde como costume
-            usavamos a metodologia ageis como o scrum, usavamos também kanbam,
-            entre vaias outras ferramentas de organizção. */}
+            Hoje me dedico a estudar programação, pois vejo que essa habilidade
+            nos proporciona criar ferramentas, produtos que podem ajudar muita
+            gente a atingir seus objetivos.
+            <br /> <br /> Meus planos para daqui 5 anos, que seria 2024 e me
+            tornar um programador sênior, está liderando uma equipe de
+            desenvolvimento e trabalhando com um produto revolucionário, não
+            precisar se um instagram ou uber, mas que seja um produto que faça
+            diferença na vida das pessoas.
           </Text>
         </DivText>
       </Card>

@@ -14,9 +14,7 @@ const Tecs = () => {
       <DivStyled>
         <Title id="hardSkills">HardSkills</Title>
         <DivSubTitle>
-          <SubTitle>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </SubTitle>
+          <SubTitle>Algumas tecnologias que tive mais contato !</SubTitle>
         </DivSubTitle>
       </DivStyled>
       <DivCard>

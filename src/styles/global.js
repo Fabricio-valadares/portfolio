@@ -19,4 +19,16 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
 
+  ::-webkit-scrollbar-track {
+    background-image: linear-gradient(#181818, #23222f);
+  }
+  ::-webkit-scrollbar {
+      width: 8px;
+      background: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: #47b7ca;
+      border-radius: 5px;
+  }
+
 `;

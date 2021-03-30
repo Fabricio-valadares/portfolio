@@ -30,6 +30,23 @@ export const Card = styled.div`
 export const DivText = styled.div`
   width: 600px;
   padding: 20px 0 0 20px;
+  overflow: auto;
+
+  ::-webkit-scrollbar-track {
+    background: #1a191c;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    background: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3e3e41;
+    border-radius: 5px;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
 
   @media (max-width: 1070px) {
     &:last-child {

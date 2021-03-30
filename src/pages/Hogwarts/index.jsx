@@ -49,7 +49,7 @@ const Hogwarts = () => {
           <div
             style={{ margin: "20px 0", fontSize: "1.6rem", color: "#40c5dc" }}
           >
-            Experiencia em fazer esse projeto !
+            Experiência em fazer esse projeto !
           </div>
           <Text>
             Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com

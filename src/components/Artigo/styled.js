@@ -21,6 +21,7 @@ export const Name = styled.p`
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  padding: 0 10px;
   font-weight: 300;
 `;
 export const CardStyled = styled.div`

@@ -19,7 +19,9 @@ const Projects = () => {
       <DivTitle>
         <Title>Projetos</Title>
         <DivSubTitle>
-          <SubTitle>Avançe no Slid e clique no Botão sabe mais !</SubTitle>
+          <SubTitle>
+            Avance no slide e clique no botão para saber mais !
+          </SubTitle>
         </DivSubTitle>
       </DivTitle>
       <Container>

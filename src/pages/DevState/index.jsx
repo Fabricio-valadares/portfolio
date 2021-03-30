@@ -10,8 +10,6 @@ import {
   Text,
   DivImage,
   DivText,
-  Dow,
-  Animation,
 } from "./styled";
 
 const DevState = () => {
@@ -52,16 +50,13 @@ const DevState = () => {
           </Carousel>
         </SectionCarousel>
       </MainStyled>
-      {/* <Animation>
-        <Dow />
-      </Animation> */}
       <Card>
         <DivImage></DivImage>
         <DivText>
           <div
             style={{ margin: "20px 0", fontSize: "1.6rem", color: "#40c5dc" }}
           >
-            Experiencia em fazer esse projeto !
+            Experiência em fazer esse projeto !
           </div>
           <Text>
             Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
