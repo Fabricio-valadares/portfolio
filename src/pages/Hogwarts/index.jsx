@@ -52,15 +52,18 @@ const Hogwarts = () => {
             Experiência em fazer esse projeto !
           </div>
           <Text>
-            Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
-            programação não tem muito tempo, Alias tem exatamente 6 meses, isso
-            mesmo apens 6 meses, mas eu sempre tive interrece por software, mas
-            eu achava que isso era muito dificil e que não era para mim, porque
-            toda vez que tentei aprender sozinho, eu não dava conta de resolver
-            nenhum problema usando código, então eu segui outros caminhos, mas a
-            o sonho de construir um site nao saia de mim, então eu desidir
-            começar a estudar novamente, mas agora procurando uma ajuda,
-            perfomce.
+            Minha experiência em fazer esse projeto, foi muito boa, porque nesse
+            momento eu estava aprendendo a fazer o gerenciamento de estado de
+            uma aplicação, e sendo mais específico eu estava aprendendo a usar o
+            redux para fazer tal gerenciamento, e como de costume para qualquer
+            pessoa que começa a estudar o redux, ficar um pouco perdido nos
+            conceitos e super normal, mas com algumas horas estudando você
+            consegue fixar cada idéia do redux e tudo fica uma diversão.
+            <br /> E nesse projeto foi o que aconteceu para mim, no começo eu
+            não sabia bem o que estava fazendo, mas lendo e vendo os erros que
+            eu gerava, fui aprendendo como funciona o redux, e no final fiquei
+            muito feliz, porque eu saí desse projeto entendo o redux e com um
+            projeto legal.
           </Text>
         </DivText>
       </Card>

@@ -20,8 +20,8 @@ const KenzieHub = () => {
       <Header />
 
       <MainStyled>
-        <SectionCarousel showStatus={false} useKeyboardArrows={true}>
-          <Carousel>
+        <SectionCarousel>
+          <Carousel showStatus={false} useKeyboardArrows={true}>
             <div>
               <img src="./assets/KenzieShop/kenzieshop1.png" />
             </div>
@@ -43,15 +43,13 @@ const KenzieHub = () => {
             Experiência em fazer esse projeto !
           </div>
           <Text>
-            Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
-            programação não tem muito tempo, Alias tem exatamente 6 meses, isso
-            mesmo apens 6 meses, mas eu sempre tive interrece por software, mas
-            eu achava que isso era muito dificil e que não era para mim, porque
-            toda vez que tentei aprender sozinho, eu não dava conta de resolver
-            nenhum problema usando código, então eu segui outros caminhos, mas a
-            o sonho de construir um site nao saia de mim, então eu desidir
-            começar a estudar novamente, mas agora procurando uma ajuda,
-            perfomce.
+            Fazer esse projeto foi uma experiência muito legal, porque a
+            principal função dessa aplicação e persistir os dados dos produtos,
+            que o cliente colocou no carrinho dentro da aplicação, mesmo se ele
+            sair do site os produtos escolhidos continuaram no carrinho, e isso
+            antes de você saber como é feito pode parecer complexo, mas na
+            verdade é muito fácil, então fazer algo que eu vejo em muito site,
+            foi muito empolgante.
           </Text>
         </DivText>
       </Card>

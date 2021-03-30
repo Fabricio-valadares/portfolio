@@ -11,6 +11,7 @@ const Historia = () => {
             alt="image-random"
           />
         </DivImage>
+
         <DivText>
           <div
             style={{ margin: "20px 0", fontSize: "1.6rem", color: "#40c5dc" }}
@@ -35,7 +36,7 @@ const Historia = () => {
             <br /> <br /> Meus planos para daqui 5 anos, que seria 2024 e me
             tornar um programador sênior, está liderando uma equipe de
             desenvolvimento e trabalhando com um produto revolucionário, não
-            precisar se um instagram ou uber, mas que seja um produto que faça
+            precisar se um ifood ou uber, mas que seja um produto que faça
             diferença na vida das pessoas.
           </Text>
         </DivText>

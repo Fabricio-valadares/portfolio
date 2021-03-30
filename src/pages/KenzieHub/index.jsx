@@ -49,18 +49,24 @@ const KenzieHub = () => {
           <div
             style={{ margin: "20px 0", fontSize: "1.6rem", color: "#40c5dc" }}
           >
-            Experiencia em fazer esse projeto !
+            Experiência em fazer esse projeto !
           </div>
           <Text>
-            Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
-            programação não tem muito tempo, Alias tem exatamente 6 meses, isso
-            mesmo apens 6 meses, mas eu sempre tive interrece por software, mas
-            eu achava que isso era muito dificil e que não era para mim, porque
-            toda vez que tentei aprender sozinho, eu não dava conta de resolver
-            nenhum problema usando código, então eu segui outros caminhos, mas a
-            o sonho de construir um site nao saia de mim, então eu desidir
-            começar a estudar novamente, mas agora procurando uma ajuda,
-            perfomce.
+            Minha experiência nesse projeto foi muito surpreendente, porque meu
+            computador estragou bem na hora em que comecei a fazer tal projeto,
+            e eu tive que deixar ele em manutenção, mas eu queria muito fazer
+            tal projeto, então eu pesquisei bastante um computador usado e
+            barato, para comprar, e nesse processo eu acabei ficando com uma
+            máquina com um processador celeron, 2 gb de memória entre outros
+            detalhes, pois nesse momento era o que meu dinheiro dava para
+            comprar. <br /> E foi um momento de muito aprendizado, porque eu
+            estava aprendendo a usar os hooks do react, como useEffect para
+            fazer requisição à api, e um erro, um código mal planejado fazia a
+            máquina trava, então para finalizar a história eu me desenvolvi
+            bastante como programador, porque a cada linha eu tinha que pensar o
+            que estava fazendo e como isso afetaria minha aplicação, e o bom
+            disso tudo é que desenvolvi uma habilidade muito importante para um
+            programador, que é pensar antes de escrever o código.
           </Text>
         </DivText>
       </Card>

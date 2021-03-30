@@ -59,15 +59,14 @@ const DevState = () => {
             Experiência em fazer esse projeto !
           </div>
           <Text>
-            Olá tudo bem ? Meu nome e Fabricio Valadares, e minha história com
-            programação não tem muito tempo, Alias tem exatamente 6 meses, isso
-            mesmo apens 6 meses, mas eu sempre tive interrece por software, mas
-            eu achava que isso era muito dificil e que não era para mim, porque
-            toda vez que tentei aprender sozinho, eu não dava conta de resolver
-            nenhum problema usando código, então eu segui outros caminhos, mas a
-            o sonho de construir um site nao saia de mim, então eu desidir
-            começar a estudar novamente, mas agora procurando uma ajuda,
-            perfomce.
+            Desenvolver esse projeto foi uma experiência muito boa, porque nele
+            eu aprendi como começar um projeto do zero de uma forma eficiente, e
+            também internalizar que planejar antes de começar escrever qualquer
+            linha código, faz toda diferença durante o desenvolvimento do
+            projeto. E que tal organização proporciona uma diversão durante a
+            construção do software, e que ao contrário um projeto pode se tornar
+            um problema, então planejamento, organização, força de vontade,
+            prazo estabelecido e de extrema importância para a programação.
           </Text>
         </DivText>
       </Card>
