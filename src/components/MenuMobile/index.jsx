@@ -148,7 +148,7 @@ export default function CustomizedMenus() {
             <ListItemIcon>
               <FiCheckSquare size={23} />
             </ListItemIcon>
-            <ListItemText primary="HardSkills" />
+            <ListItemText primary="Tecnologia" />
           </StyledMenuItem>
         </a>
       </StyledMenu>

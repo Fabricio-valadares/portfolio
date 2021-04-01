@@ -26,7 +26,7 @@ const Menu = () => {
       </Itens>
       <Itens onClick={() => history.push("/")}>
         <a style={{ color: "#fff", textDecoration: "none" }} href="#hardSkills">
-          HardSkills
+          Tecnologia
         </a>
       </Itens>
     </NavStyled>
