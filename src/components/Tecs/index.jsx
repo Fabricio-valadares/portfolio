@@ -12,7 +12,7 @@ const Tecs = () => {
   return (
     <Container>
       <DivStyled>
-        <Title id="hardSkills">Tecnologia</Title>
+        <Title id="hardSkills">Tecnologias</Title>
         <DivSubTitle>
           <SubTitle>Algumas tecnologias que tive mais contato !</SubTitle>
         </DivSubTitle>
