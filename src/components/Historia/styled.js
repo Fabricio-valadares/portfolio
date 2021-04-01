@@ -19,11 +19,16 @@ export const Card = styled.div`
   border-left: 1px solid #333;
 
   display: flex;
+  justify-content: center;
   width: 80%;
   height: 400px;
 
   @media (max-width: 1070px) {
     height: auto;
+  }
+
+  @media (min-width: 1500px) {
+    border: none;
   }
 `;
 
@@ -66,6 +71,10 @@ export const DivImage = styled.div`
 
   @media (max-width: 905px) {
     display: none;
+  }
+
+  @media (min-width: 1500px) {
+    border-left: 1px solid #333;
   }
 `;
 
