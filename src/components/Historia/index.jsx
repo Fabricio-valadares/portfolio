@@ -33,11 +33,11 @@ const Historia = () => {
             Hoje me dedico a estudar programação, pois vejo que essa habilidade
             nos proporciona criar ferramentas, produtos que podem ajudar muita
             gente a atingir seus objetivos.
-            <br /> <br /> Meus planos para daqui 5 anos, que seria 2024 e me
-            tornar um programador sênior, está liderando uma equipe de
-            desenvolvimento e trabalhando com um produto revolucionário, não
-            precisar se um ifood ou uber, mas que seja um produto que faça
-            diferença na vida das pessoas.
+            <br /> <br /> Meus planos para daqui 5 anos e me tornar um
+            programador sênior, está liderando uma equipe de desenvolvimento e
+            trabalhando com um produto revolucionário, não precisar se um ifood
+            ou uber, mas que seja um produto que faça diferença na vida das
+            pessoas.
           </Text>
         </DivText>
       </Card>
