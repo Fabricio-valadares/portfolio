@@ -24,14 +24,12 @@ const Sobre = () => {
             realidade!
           </Text>
           <DivButton>
-            <Button>
+            <Button
+              href="https://github.com/Fabricio-valadares"
+              target="_blank"
+            >
               <FaGithubStyled />
-              <AStyled
-                href="https://github.com/Fabricio-valadares"
-                target="_blank"
-              >
-                Conhecer Github
-              </AStyled>
+              <AStyled>Conhecer Github</AStyled>
             </Button>
           </DivButton>
         </DivContent>

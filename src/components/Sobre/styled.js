@@ -97,7 +97,7 @@ export const DivContent = styled.div`
   margin: 0 45px;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 184px;
   display: flex;
   align-items: center;
@@ -110,6 +110,10 @@ export const Button = styled.button`
   color: #333;
   font-weight: 500;
   padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+
+  outline: none;
   margin-top: 40px;
 
   @media (max-width: 769px) {
