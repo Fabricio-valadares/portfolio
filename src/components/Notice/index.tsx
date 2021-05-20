@@ -1,6 +1,6 @@
 import { Container, Dow, Animation, Text } from "./styled";
 
-const Aviso = () => {
+const Notice = () => {
   return (
     <Container>
       <Text style={{ fontWeight: 300, fontVariant: "petite-caps" }}>
@@ -14,4 +14,4 @@ const Aviso = () => {
   );
 };
 
-export default Aviso;
+export default Notice;

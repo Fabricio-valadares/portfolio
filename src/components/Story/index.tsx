@@ -1,6 +1,6 @@
 import { Container, Card, DivText, DivImage, Text } from "./styled";
 
-const Historia = () => {
+const Story = () => {
   return (
     <Container id="history">
       <Card>
@@ -45,4 +45,4 @@ const Historia = () => {
   );
 };
 
-export default Historia;
+export default Story;

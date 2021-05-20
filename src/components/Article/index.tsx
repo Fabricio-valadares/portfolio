@@ -11,7 +11,7 @@ import {
   DivSubTitle,
 } from "./styled";
 
-const Artigo = () => {
+const Article = () => {
   return (
     <Container id="artigos">
       <DivStyled>
@@ -70,4 +70,4 @@ const Artigo = () => {
   );
 };
 
-export default Artigo;
+export default Article;

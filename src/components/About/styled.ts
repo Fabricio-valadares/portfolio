@@ -7,9 +7,6 @@ export const Container = styled.div`
   justify-content: center;
   border-bottom: 1px solid #333;
 
-  /* background-image: url("./assets/asd.jpg");
-  background-size: contain; */
-
   @media (max-width: 905px) {
     flex-direction: column;
   }

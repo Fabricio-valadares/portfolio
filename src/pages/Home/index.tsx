@@ -1,22 +1,22 @@
 import Header from "../../components/Header";
-import Sobre from "../../components/Sobre";
+import About from "../../components/About";
 import Tecs from "../../components/Tecs";
-import Aviso from "../../components/Aviso";
-import Historia from "../../components/Historia";
+import Notice from "../../components/Notice";
+import Story from "../../components/Story";
 import Footer from "../../components/Footer";
 import Projects from "../../components/Projects";
-import Artigo from "../../components/Artigo";
+import Article from "../../components/Article";
 import { ContainerMain } from "./styled";
 
 const Home = () => {
   return (
     <ContainerMain>
       <Header />
-      <Sobre />
-      <Aviso />
-      <Historia />
+      <About />
+      <Notice />
+      <Story />
       <Projects />
-      <Artigo />
+      <Article />
       <Tecs />
       <Footer />
     </ContainerMain>
