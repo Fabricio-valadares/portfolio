@@ -17,9 +17,9 @@ const Sobre = () => {
     <Container>
       <DivText>
         <DivContent>
-          <Title>Desenvolvedor Front-End</Title>
+          <Title>Desenvolvedor Full-Stack</Title>
           <Text>
-            Fico muito feliz ao dizer que sou um programador Front-End, porque
+            Fico muito feliz ao dizer que sou um programador Full-Stack, porque
             me tornar um programador era uns dos meus sonhos, que hoje e
             realidade!
           </Text>
