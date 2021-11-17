@@ -19,21 +19,22 @@ const Story = () => {
             Sobre min
           </div>
           <Text>
-            Olá tudo bem ?<br />
+            Olá, tudo bem ?<br />
             <br />
-            Meu nome é Fabricio Valadares, sou goiano, tenho 21 anos, sou
-            apaixonado por livros, programação, e tenho uma grande empolgação
-            por empreendedorismo e educação financeira. <br /> <br /> Gosto
-            muito de conversar sobre produto, negócios e principalmente sobre
-            inovação, porque acredito que uma empresa pode mudar o mundo para
-            melhor com um produto fácil de usar e que resolva um problema comum
-            entre um determinado grupo de pessoas.
+            Meu nome é Fabricio Valadares, sou goiano, tenho 
+             22
+             anos, sou apaixonado por livros, programação, e tenho uma grande
+            empolgação por empreendedorismo e educação financeira. <br /> <br />
+            Gosto muito de conversar sobre produto, negócios e principalmente
+            sobre inovação, porque acredito que uma empresa pode mudar o mundo
+            para melhor com um produto fácil de usar e que resolva um problema
+            comum entre um determinado grupo de pessoas.
           </Text>
           <Text>
             Hoje me dedico a estudar programação, pois vejo que essa habilidade
             nos proporciona criar ferramentas, produtos que podem ajudar muita
             gente a atingir seus objetivos.
-            <br /> <br /> Meus planos para daqui 5 anos e me tornar um
+            <br /> <br /> Meus planos para daqui a 5 anos e me tornar um
             programador sênior, está liderando uma equipe de desenvolvimento e
             trabalhando com um produto revolucionário, não precisar se um ifood
             ou uber, mas que seja um produto que faça diferença na vida das

@@ -1,10 +1,11 @@
 import { Container } from "./styled";
+import { getYear } from "date-fns";
 
 const Footer = () => {
   return (
     <Container>
       <p style={{ fontWeight: 300 }}>
-        © Desenvolvido por Fabricio Valadares - 2021
+        © Desenvolvido por Fabricio Valadares - {getYear(new Date())}
       </p>
     </Container>
   );
