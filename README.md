@@ -4,7 +4,7 @@ Sou um desenvolverdor front-end, focado em JavaScript, TypeScript, React, Styled
 
 ## Sobre :
 
-Meu nome é Fabricio Valadares e sou extremamente apaixonado por ensinar, porque acredito que evoluímos muito como profissional e como pessoa quando ensinamos o que aprendemos a outras pessoas. Amo programação e vejo que através dos códigos eu posso mudar o mundo para melhor.
+Meu nome é Fabricio Valadares e sou extremamente apaixonado por ensinar, porque acredito que evoluímos muito como profissional e como pessoa quando ensinamos o que aprendemos a outras pessoas.
 
 ## Tecnologias :
 
