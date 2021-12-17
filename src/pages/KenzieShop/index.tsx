@@ -13,8 +13,19 @@ import {
   Dow,
   Animation,
 } from "./styled";
+import { useLocation } from "react-router-dom";
+import ReactGA from "react-ga";
+import { useEffect } from "react";
 
 const KenzieHub = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.initialize("UA-141689343-1");
+
+    ReactGA.pageview(location.pathname);
+  }, []);
+
   return (
     <Container>
       <Header />
