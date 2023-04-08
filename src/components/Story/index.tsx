@@ -21,8 +21,8 @@ const Story = () => {
           <Text>
             Olá, tudo bem ?<br />
             <br />
-            Meu nome é Fabricio Valadares, sou goiano, tenho 
-             22
+            Meu nome é Fabricio Valadares, sou goiano, tenho
+             23
              anos, sou apaixonado por livros, programação, e tenho uma grande
             empolgação por empreendedorismo e educação financeira. <br /> <br />
             Gosto muito de conversar sobre produto, negócios e principalmente
